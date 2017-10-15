@@ -1,0 +1,6 @@
+boost-numpy-eigen (0.0.2.ppa0~xenial) xenial; urgency=medium
+
+  * Initial release
+
+ -- Jeongseok Lee <jslee02@gmail.com>  Tue, 10 Oct 2017 23:59:59 -0700
+

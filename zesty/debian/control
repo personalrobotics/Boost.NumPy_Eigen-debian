@@ -1,0 +1,36 @@
+Source: boost-numpy-eigen
+Section: misc
+Priority: extra
+Maintainer: Jeongseok Lee <jslee02@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), 
+               cmake,
+               libboost-dev,
+               libboost-python-dev,
+               python-numpy,
+               python-dev,
+               libboost-numpy-dev
+Homepage: https://github.com/personalrobotics/Boost.NumPy_Eigen
+Standards-Version: 3.9.2
+
+Package: libboost-numpy-eigen
+Section: libs
+Architecture: any
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Boost.Python interface for NumPy - Development Files
+ Boost.NumPy is an extension for Boost.Python that adds NumPy support.
+
+Package: libboost-numpy-eigen-dev
+Section: libdevel
+Architecture: any
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends},
+         libboost-numpy-eigen (= ${binary:Version}),
+         libboost-dev,
+         libboost-python-dev,
+         python-numpy,
+         python-dev,
+         libboost-numpy-dev
+Description: Boost.Python interface for NumPy - Development Files
+ Boost.NumPy is an extension for Boost.Python that adds NumPy support.
+
