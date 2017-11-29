@@ -20,12 +20,12 @@ override_dh_auto_test:
 
 override_dh_auto_install:
 	dh_auto_configure -- \
-	    -DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo -DBOOST_NUMPY_EIGEN_PYTHON_VERSION=3
+	    -DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo -DDARTPY_PYTHON_VERSION=3
 	dh_auto_build
 	dh_auto_install
 	rm -rf obj-*-linux-gnu
 	dh_auto_configure -- \
-	    -DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo -DBOOST_NUMPY_EIGEN_PYTHON_VERSION=2
+	    -DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo -DDARTPY_PYTHON_VERSION=2
 	dh_auto_build
 	dh_auto_install
 
