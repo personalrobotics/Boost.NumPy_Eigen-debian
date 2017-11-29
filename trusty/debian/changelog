@@ -1,3 +1,9 @@
+boost-numpy-eigen (0.0.3.ppa2~trusty) trusty; urgency=medium
+
+  * Support both of Python 2 and 3
+
+ -- Jeongseok Lee <jslee02@gmail.com>  Tue, 10 Oct 2017 23:59:59 -0700
+
 boost-numpy-eigen (0.0.2.ppa4~trusty) trusty; urgency=medium
 
   * Initial release
