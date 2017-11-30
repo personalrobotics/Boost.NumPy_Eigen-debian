@@ -1,4 +1,4 @@
-python-boost-numpy-eigen (0.0.3.ppa5~trusty) trusty; urgency=medium
+python-boost-numpy-eigen (0.0.3.ppa6~trusty) trusty; urgency=medium
 
   * Support both of Python 2 and 3
 
