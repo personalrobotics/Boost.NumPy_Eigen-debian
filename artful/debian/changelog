@@ -1,4 +1,4 @@
-python-boost-numpy-eigen (0.0.3.ppa0~zesty) zesty; urgency=medium
+python-boost-numpy-eigen (0.0.3.ppa0~artful) artful; urgency=medium
 
   * Support both of Python 2 and 3
 
