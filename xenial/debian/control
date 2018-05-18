@@ -2,12 +2,13 @@ Source: python-boost-numpy-eigen
 Section: python
 Priority: optional
 Maintainer: Jeongseok Lee <jslee02@gmail.com>
-Build-Depends: debhelper (>= 9.0.0), 
+Build-Depends: debhelper (>= 9.0.0),
                cmake,
                libboost-dev,
                libboost-python-dev,
+               libboost-python-numpy-dev,
                python-dev,
-               libboost-python-numpy-dev
+               python3-dev
 Homepage: https://github.com/personalrobotics/Boost.NumPy_Eigen
 Standards-Version: 3.9.2
 
